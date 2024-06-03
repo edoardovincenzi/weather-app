@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .weather-card {
+    @apply bg-weather h-24 md:h-20 w-40 text-center md:w-48 p-2 flex justify-between items-center flex-col rounded-xl;
+  }
+}
