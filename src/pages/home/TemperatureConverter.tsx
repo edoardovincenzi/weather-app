@@ -38,16 +38,16 @@ const TemperatureConverter = ({ temp }: { temp: number }) => {
       <div className="mr-4 flex flex-col">
         <button
           onClick={() => handleUnitChange('C')}
-          className={`px-3 py-1 rounded-t border ${
-            unit === 'C' ? 'bg-weather' : 'text-gray-700'
+          className={`px-3 py-1 rounded-t border border-weather-darker ${
+            unit === 'C' ? 'bg-weather-darker' : 'text-gray-700'
           }`}
         >
           C
         </button>
         <button
           onClick={() => handleUnitChange('F')}
-          className={`px-3 py-1 rounded-b border ${
-            unit === 'F' ? 'bg-weather' : 'text-gray-700'
+          className={`px-3 py-1  border rounded-b border-weather-darker ${
+            unit === 'F' ? 'bg-weather-darker' : 'text-gray-700'
           }`}
         >
           F

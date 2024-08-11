@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         weather: '#CBEAE7',
+        'weather-darker': 'hsl(174, 42%, 76%)',
       },
     },
   },
